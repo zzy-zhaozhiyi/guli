@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f7d3ec0-2489-4c8a-90e2-74cdb1508f5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/guli.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/result/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/result/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/ExcelImportUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/ExceptionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/FormUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/OrderNoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/SnowflakeIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/result/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/result/ResultCodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/CookieUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/ExcelImportUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/ExceptionUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/FormUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/MD5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/OrderNoUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/RandomUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/ResponseUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/SnowflakeIdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/util/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/exception/GuliException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/handler/CommonMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/target/classes/com/atguigu/guli/service/base/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/target/classes/com/atguigu/guli/service/base/config/Swagger2Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/target/classes/com/atguigu/guli/service/base/exception/GuliException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/target/classes/com/atguigu/guli/service/base/handler/CommonMetaObjectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/target/classes/com/atguigu/guli/service/base/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/target/classes/com/atguigu/guli/service/base/model/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/ServiceEduApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/ChapterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/CourseCollectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/CourseDescriptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/SubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/VideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/Chapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/CourseCollect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/CourseDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/form/CourseInfoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/vo/ChapterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/vo/CourseQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/vo/SubjectVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/vo/TeacherQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/vo/VideoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/ChapterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/CourseCollectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/CourseDescriptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/SubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/VideoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/ChapterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/CourseCollectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/CourseDescriptionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/SubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/VideoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/ChapterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/CourseCollectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/CourseDescriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/SubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/VideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/ChapterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/CourseCollectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/CourseDescriptionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/SubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/test/java/com/atguigu/guli/service/edu/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/ServiceEduApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/ChapterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/CommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/CourseCollectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/CourseDescriptionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/SubjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/TeacherController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/VideoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/Chapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/CourseCollect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/CourseDescription.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/Video.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/form/CourseInfoForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/vo/ChapterVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/vo/CourseQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/vo/SubjectVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/vo/TeacherQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/vo/VideoVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/ChapterMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/CommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/CourseCollectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/CourseDescriptionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/CourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/SubjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/TeacherMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/VideoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/ChapterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/CourseCollectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/CourseDescriptionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/SubjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/TeacherService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/VideoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/ChapterServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/CommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/CourseCollectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/CourseDescriptionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/SubjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/TeacherServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/VideoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/test-classes/com/atguigu/guli/service/edu/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atguigu/guli/service/oss/ServiceOssApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atguigu/guli/service/oss/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atguigu/guli/service/oss/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atguigu/guli/service/oss/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atguigu/guli/service/oss/util/OssProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/target/classes/com/atguigu/guli/service/oss/ServiceOssApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/target/classes/com/atguigu/guli/service/oss/controller/FileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/target/classes/com/atguigu/guli/service/oss/service/FileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/target/classes/com/atguigu/guli/service/oss/service/impl/FileServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/target/classes/com/atguigu/guli/service/oss/util/OssProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-oss/target/classes/logback-spring.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\workspace_idea0722\guli\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\developer_tools\RepMaven" />
+        <option name="mavenHome" value="D:/developer_tools/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\developer_tools\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VudroOtUIMt8oxDHPqvRQhHeFX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_idea0722\guli\common\common-util\src\main\java\com\atguigu\guli\common\base\util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceEduApplication">
+    <configuration name="ServiceOssApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.guli.service.oss.ServiceOssApplication" />
+      <module name="service-oss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.guli.service.oss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallAdminMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.GmallAdminMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceEduApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-edu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.guli.service.edu.ServiceEduApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-oss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.guli.service.oss.ServiceOssApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServiceOssApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.23154363" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f7d3ec0-2489-4c8a-90e2-74cdb1508f5c" name="Default Changelist" comment="" />
+      <created>1577701614037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577701614037</updated>
+      <workItem from="1577701616681" duration="1217000" />
+      <workItem from="1577702843882" duration="3397000" />
+      <workItem from="1577719794664" duration="85000" />
+      <workItem from="1577752161608" duration="5569000" />
+      <workItem from="1578011393806" duration="15785000" />
+      <workItem from="1578048746217" duration="36000" />
+      <workItem from="1578049675458" duration="2684000" />
+      <workItem from="1578098101238" duration="14000" />
+      <workItem from="1578098155620" duration="20000" />
+      <workItem from="1578103474738" duration="14000" />
+      <workItem from="1578107117993" duration="490000" />
+      <workItem from="1578107743695" duration="767000" />
+      <workItem from="1578109235589" duration="603000" />
+      <workItem from="1578109910704" duration="306000" />
+      <workItem from="1578117724272" duration="344000" />
+      <workItem from="1578118170396" duration="1001000" />
+      <workItem from="1578119959077" duration="1038000" />
+      <workItem from="1578121555041" duration="179000" />
+      <workItem from="1578122120591" duration="5000" />
+      <workItem from="1578124077271" duration="140000" />
+      <workItem from="1578124235365" duration="73000" />
+      <workItem from="1578124390295" duration="81000" />
+      <workItem from="1578124650999" duration="7000" />
+      <workItem from="1578125155356" duration="745000" />
+      <workItem from="1578127663661" duration="44000" />
+      <workItem from="1578130604266" duration="1589000" />
+      <workItem from="1578132282128" duration="826000" />
+      <workItem from="1578133649625" duration="3122000" />
+      <workItem from="1578136790193" duration="65000" />
+      <workItem from="1578136871222" duration="258000" />
+      <workItem from="1578137149284" duration="1848000" />
+      <workItem from="1578139018038" duration="1038000" />
+      <workItem from="1578140961364" duration="20000" />
+      <workItem from="1578141059433" duration="5585000" />
+      <workItem from="1578146671699" duration="495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="133" y="0" key="#Menus_and_Toolbars" timestamp="1578135804727">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="133" y="0" key="#Menus_and_Toolbars/0.0.1280.680@0.0.1280.680" timestamp="1578135804727" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578146371409">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1578146371409" />
+    <state x="360" y="183" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1578136853521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="360" y="183" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.680@0.0.1280.680" timestamp="1578136853521" />
+    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1578144422274">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578144422274" />
+    <state x="449" y="224" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578131923050">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="449" y="224" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1578131923050" />
+    <state x="121" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1578131918809">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1280.680@0.0.1280.680" timestamp="1578131918809" />
+    <state x="470" y="46" key="FileChooserDialogImpl" timestamp="1578141095598">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="470" y="46" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578141095598" />
+    <state x="452" y="236" width="406" height="208" key="Github.CreateGistDialog" timestamp="1578141073354">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="452" y="236" width="406" height="208" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1578141073354" />
+    <state width="1229" height="189" key="GridCell.Tab.0.bottom" timestamp="1578146649267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1229" height="189" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578146649267" />
+    <state width="1229" height="189" key="GridCell.Tab.0.center" timestamp="1578146649267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1229" height="189" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578146649267" />
+    <state width="1229" height="189" key="GridCell.Tab.0.left" timestamp="1578146649267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1229" height="189" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578146649267" />
+    <state width="1229" height="189" key="GridCell.Tab.0.right" timestamp="1578146649267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1229" height="189" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578146649267" />
+    <state width="1229" height="189" key="GridCell.Tab.1.bottom" timestamp="1578146649267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1229" height="189" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578146649267" />
+    <state width="1229" height="189" key="GridCell.Tab.1.center" timestamp="1578146649267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1229" height="189" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578146649267" />
+    <state width="1229" height="189" key="GridCell.Tab.1.left" timestamp="1578146649267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1229" height="189" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578146649267" />
+    <state width="1229" height="189" key="GridCell.Tab.1.right" timestamp="1578146649267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1229" height="189" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578146649267" />
+    <state width="915" height="364" key="GridCell.Tab.2.bottom" timestamp="1578140059629">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="915" height="364" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578140059629" />
+    <state width="915" height="364" key="GridCell.Tab.2.center" timestamp="1578140059629">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="915" height="364" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1578140059629" />
+    <state width="915" height="364" key="GridCell.Tab.2.left" timestamp="1578140059629">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="915" height="364" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1578140059629" />
+    <state width="915" height="364" key="GridCell.Tab.2.right" timestamp="1578140059629">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="915" height="364" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1578140059629" />
+    <state x="58" y="0" key="SettingsEditor" timestamp="1578147072216">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="58" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578147072216" />
+    <state x="329" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1578125158030">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="329" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578125158030" />
+    <state x="213" y="147" key="run.anything.popup" timestamp="1578143965558">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="213" y="147" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1578143965558" />
+  </component>
+</project>
