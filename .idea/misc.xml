@@ -14,13 +14,26 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/../gmall/gmall-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-auth/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/gmall-cart-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-cart/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/gmall-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-index/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-item/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/gmall-oms-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-oms/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-order/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/gmall-pms-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-search/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/gmall-sms-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-sms/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/gmall-ums-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-ums/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/gmall-wms-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../gmall/gmall-wms/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/pom.xml" />
       </set>
     </option>

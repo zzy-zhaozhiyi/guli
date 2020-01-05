@@ -15,10 +15,19 @@
     <bytecodeTargetLevel>
       <module name="gmall" target="1.8" />
       <module name="gmall-admin" target="1.8" />
+      <module name="gmall-auth" target="1.8" />
+      <module name="gmall-cart" target="1.8" />
       <module name="gmall-cart-interface" target="1.8" />
       <module name="gmall-core" target="1.8" />
+      <module name="gmall-gateway" target="1.8" />
+      <module name="gmall-generator" target="1.8" />
+      <module name="gmall-index" target="1.8" />
+      <module name="gmall-item" target="1.8" />
       <module name="gmall-oms-interface" target="1.8" />
+      <module name="gmall-order" target="1.8" />
+      <module name="gmall-pms" target="1.8" />
       <module name="gmall-pms-interface" target="1.8" />
+      <module name="gmall-search" target="1.8" />
       <module name="gmall-sms-interface" target="1.8" />
       <module name="gmall-ums-interface" target="1.8" />
       <module name="gmall-wms-interface" target="1.8" />
@@ -28,6 +37,19 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-util" options="-parameters" />
       <module name="gmall-admin" options="-parameters" />
+      <module name="gmall-auth" options="-parameters" />
+      <module name="gmall-cart" options="-parameters" />
+      <module name="gmall-gateway" options="-parameters" />
+      <module name="gmall-generator" options="-parameters" />
+      <module name="gmall-index" options="-parameters" />
+      <module name="gmall-item" options="-parameters" />
+      <module name="gmall-oms" options="-parameters" />
+      <module name="gmall-order" options="-parameters" />
+      <module name="gmall-pms" options="-parameters" />
+      <module name="gmall-search" options="-parameters" />
+      <module name="gmall-sms" options="-parameters" />
+      <module name="gmall-ums" options="-parameters" />
+      <module name="gmall-wms" options="-parameters" />
       <module name="service-base" options="-parameters" />
       <module name="service-edu" options="-parameters" />
       <module name="service-oss" options="-parameters" />
