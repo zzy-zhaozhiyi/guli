@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7d3ec0-2489-4c8a-90e2-74cdb1508f5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/vo/CoursePublishVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/vo/CoursePublishVo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-base/target/classes/com/atguigu/guli/service/base/handler/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-base/target/classes/com/atguigu/guli/service/base/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/CourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/CourseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/CourseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/CourseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/CourseServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +65,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1VudroOtUIMt8oxDHPqvRQhHeFX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -66,10 +79,11 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project01" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,7 +96,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -110,100 +124,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GmallAdminMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-admin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.GmallAdminMainApplication" />
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="zk-demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GmallAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-auth" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.auth.GmallAuthApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-cart" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguiug.gmall.cart.GmallCartApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.gateway.GmallGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallIndexApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-index" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.index.GmallIndexApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-item" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.item.GmallItemApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallOmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-oms" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.oms.GmallOmsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-order" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.order.GmallOrderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallPmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-pms" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.pms.GmallPmsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-search" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.search.GmallSearchApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-sms" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.sms.GmallSmsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallUmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-ums" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.ums.GmallUmsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GmallWmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-wms" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.wms.GmallWmsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-generator" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.RenrenApplication" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="zk-demo" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -234,7 +197,12 @@
         <serviceView>
           <option name="contentProportion" value="0.23154363" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -288,7 +256,13 @@
       <workItem from="1578146671699" duration="3228000" />
       <workItem from="1578196011658" duration="1342000" />
       <workItem from="1578206667142" duration="156000" />
-      <workItem from="1578206841018" duration="96000" />
+      <workItem from="1578206841018" duration="931000" />
+      <workItem from="1578210123923" duration="621000" />
+      <workItem from="1578212602140" duration="65000" />
+      <workItem from="1578212688646" duration="37000" />
+      <workItem from="1578212756416" duration="56000" />
+      <workItem from="1578212830791" duration="3043000" />
+      <workItem from="1578270476976" duration="1102000" />
     </task>
     <task id="LOCAL-00001" summary="在线教育首次提交">
       <created>1578147233553</created>
@@ -297,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578147233553</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="在线教育2">
+      <created>1578206997082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578206997082</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,17 +286,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="在线教育首次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="在线教育首次提交" />
+    <MESSAGE value="在线教育2" />
+    <option name="LAST_COMMIT_MESSAGE" value="在线教育2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="133" y="0" key="#Menus_and_Toolbars" timestamp="1578135804727">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="133" y="0" key="#Menus_and_Toolbars/0.0.1280.680@0.0.1280.680" timestamp="1578135804727" />
-    <state x="133" y="0" key="#Notifications" timestamp="1578153358788">
+    <state x="133" y="0" key="#Notifications" timestamp="1578207026148">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="133" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1578153358788" />
+    <state x="133" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1578207026148" />
     <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578146371409">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -324,10 +306,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="360" y="183" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.680@0.0.1280.680" timestamp="1578136853521" />
-    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1578144422274">
+    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1578213948074">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578144422274" />
+    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578213948074" />
     <state x="449" y="224" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578131923050">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -336,50 +318,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1280.680@0.0.1280.680" timestamp="1578131918809" />
-    <state x="192" y="0" key="CommitChangelistDialog2" timestamp="1578147229778">
+    <state x="192" y="0" key="CommitChangelistDialog2" timestamp="1578206996258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="192" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578147229778" />
-    <state x="470" y="46" key="FileChooserDialogImpl" timestamp="1578141095598">
+    <state x="192" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578206996258" />
+    <state x="470" y="0" key="FileChooserDialogImpl" timestamp="1578212617012">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="470" y="46" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578141095598" />
+    <state x="470" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578212617012" />
     <state x="452" y="236" width="406" height="208" key="Github.CreateGistDialog" timestamp="1578141073354">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="452" y="236" width="406" height="208" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1578141073354" />
-    <state width="915" height="153" key="GridCell.Tab.0.bottom" timestamp="1578206823016">
+    <state width="915" height="263" key="GridCell.Tab.0.bottom" timestamp="1578219272836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="915" height="153" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578206823016" />
-    <state width="915" height="153" key="GridCell.Tab.0.center" timestamp="1578206823016">
+    <state width="915" height="263" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578219272836" />
+    <state width="915" height="263" key="GridCell.Tab.0.center" timestamp="1578219272836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="915" height="153" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578206823016" />
-    <state width="915" height="153" key="GridCell.Tab.0.left" timestamp="1578206823016">
+    <state width="915" height="263" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578219272836" />
+    <state width="915" height="263" key="GridCell.Tab.0.left" timestamp="1578219272836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="915" height="153" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578206823016" />
-    <state width="915" height="153" key="GridCell.Tab.0.right" timestamp="1578206823016">
+    <state width="915" height="263" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578219272836" />
+    <state width="915" height="263" key="GridCell.Tab.0.right" timestamp="1578219272836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="915" height="153" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578206823016" />
-    <state width="915" height="153" key="GridCell.Tab.1.bottom" timestamp="1578206823017">
+    <state width="915" height="263" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578219272836" />
+    <state width="915" height="263" key="GridCell.Tab.1.bottom" timestamp="1578219272837">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="915" height="153" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578206823017" />
-    <state width="915" height="153" key="GridCell.Tab.1.center" timestamp="1578206823016">
+    <state width="915" height="263" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578219272837" />
+    <state width="915" height="263" key="GridCell.Tab.1.center" timestamp="1578219272837">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="915" height="153" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578206823016" />
-    <state width="915" height="153" key="GridCell.Tab.1.left" timestamp="1578206823016">
+    <state width="915" height="263" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578219272837" />
+    <state width="915" height="263" key="GridCell.Tab.1.left" timestamp="1578219272837">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="915" height="153" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578206823016" />
-    <state width="915" height="153" key="GridCell.Tab.1.right" timestamp="1578206823017">
+    <state width="915" height="263" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578219272837" />
+    <state width="915" height="263" key="GridCell.Tab.1.right" timestamp="1578219272837">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="915" height="153" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578206823017" />
+    <state width="915" height="263" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578219272837" />
     <state width="915" height="364" key="GridCell.Tab.2.bottom" timestamp="1578140059629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -396,14 +378,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="915" height="364" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1578140059629" />
-    <state x="58" y="0" key="SettingsEditor" timestamp="1578206938431">
+    <state x="255" y="0" key="NewModule_or_Project.wizard" timestamp="1578212633711">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="58" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578206938431" />
-    <state x="133" y="9" key="Vcs.Push.Dialog.v2" timestamp="1578153671789">
+    <state x="255" y="0" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1578212633711" />
+    <state x="58" y="0" key="SettingsEditor" timestamp="1578212720790">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="133" y="9" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578153671789" />
+    <state x="58" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578212720790" />
+    <state x="133" y="9" key="Vcs.Push.Dialog.v2" timestamp="1578207008746">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="133" y="9" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578207008746" />
     <state x="329" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1578125158030">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
