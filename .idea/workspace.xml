@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7d3ec0-2489-4c8a-90e2-74cdb1508f5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/entity/vo/CoursePublishVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/entity/vo/CoursePublishVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-base/target/classes/com/atguigu/guli/service/base/handler/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-base/target/classes/com/atguigu/guli/service/base/handler/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/CourseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/mapper/xml/CourseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/atguigu/guli/service/edu/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/controller/CourseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/CourseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/mapper/CourseMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/CourseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/target/classes/com/atguigu/guli/service/edu/service/impl/CourseServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +71,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -262,7 +250,10 @@
       <workItem from="1578212688646" duration="37000" />
       <workItem from="1578212756416" duration="56000" />
       <workItem from="1578212830791" duration="3043000" />
-      <workItem from="1578270476976" duration="1102000" />
+      <workItem from="1578270476976" duration="2043000" />
+      <workItem from="1578280256269" duration="34000" />
+      <workItem from="1578304941045" duration="1173000" />
+      <workItem from="1578306125991" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="在线教育首次提交">
       <created>1578147233553</created>
@@ -278,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578206997082</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3">
+      <created>1578275948861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578275948861</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,17 +285,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="在线教育首次提交" />
     <MESSAGE value="在线教育2" />
-    <option name="LAST_COMMIT_MESSAGE" value="在线教育2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="133" y="0" key="#Menus_and_Toolbars" timestamp="1578135804727">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="133" y="0" key="#Menus_and_Toolbars/0.0.1280.680@0.0.1280.680" timestamp="1578135804727" />
-    <state x="133" y="0" key="#Notifications" timestamp="1578207026148">
+    <state x="133" y="0" key="#Notifications" timestamp="1578305838610">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="133" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1578207026148" />
+    <state x="133" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1578305838610" />
     <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578146371409">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -318,14 +317,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1280.680@0.0.1280.680" timestamp="1578131918809" />
-    <state x="192" y="0" key="CommitChangelistDialog2" timestamp="1578206996258">
+    <state x="192" y="0" key="CommitChangelistDialog2" timestamp="1578275947601">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="192" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578206996258" />
-    <state x="470" y="0" key="FileChooserDialogImpl" timestamp="1578212617012">
+    <state x="192" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578275947601" />
+    <state x="470" y="0" key="FileChooserDialogImpl" timestamp="1578305784314">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="470" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578212617012" />
+    <state x="470" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578305784314" />
     <state x="452" y="236" width="406" height="208" key="Github.CreateGistDialog" timestamp="1578141073354">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -386,18 +385,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="58" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578212720790" />
-    <state x="133" y="9" key="Vcs.Push.Dialog.v2" timestamp="1578207008746">
+    <state x="133" y="9" key="Vcs.Push.Dialog.v2" timestamp="1578305794785">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="133" y="9" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578207008746" />
+    <state x="133" y="9" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578305794785" />
     <state x="329" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1578125158030">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="329" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578125158030" />
-    <state x="328" y="103" key="git4idea.merge.GitPullDialog" timestamp="1578153310348">
+    <state x="328" y="103" key="git4idea.merge.GitPullDialog" timestamp="1578305736399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="328" y="103" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1578153310348" />
+    <state x="328" y="103" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1578305736399" />
     <state x="213" y="147" key="run.anything.popup" timestamp="1578143965558">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
