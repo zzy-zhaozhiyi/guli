@@ -9,6 +9,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/pom.xml" />
+        <option value="$PROJECT_DIR$/service/pom.xml" />
+        <option value="$PROJECT_DIR$/service/service-vod/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -35,6 +37,8 @@
         <option value="$PROJECT_DIR$/../gmall/gmall-wms-interface/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/gmall-wms/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall/pom.xml" />
+        <option value="$PROJECT_DIR$/service-vod/pom.xml" />
+        <option value="$PROJECT_DIR$/service/vming/pom.xml" />
       </set>
     </option>
   </component>
