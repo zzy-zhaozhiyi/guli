@@ -93,4 +93,5 @@ public class CourseController {
         courseService.publishCourseById(id);
         return R.ok();
     }
+
 }

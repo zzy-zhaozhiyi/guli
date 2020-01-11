@@ -38,6 +38,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-util" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="gmall-admin" options="-parameters" />
       <module name="gmall-auth" options="-parameters" />
       <module name="gmall-cart" options="-parameters" />
@@ -52,9 +53,12 @@
       <module name="gmall-sms" options="-parameters" />
       <module name="gmall-ums" options="-parameters" />
       <module name="gmall-wms" options="-parameters" />
+      <module name="infrastructure" options="-parameters" />
       <module name="service-base" options="-parameters" />
       <module name="service-edu" options="-parameters" />
       <module name="service-oss" options="-parameters" />
+      <module name="service-statistics" options="-parameters" />
+      <module name="service-ucenter" options="-parameters" />
       <module name="service-vod" options="-parameters" />
       <module name="vming" options="-parameters" />
     </option>

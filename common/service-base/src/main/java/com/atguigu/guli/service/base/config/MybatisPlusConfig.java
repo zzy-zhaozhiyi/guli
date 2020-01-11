@@ -25,6 +25,7 @@ public class MybatisPlusConfig {
      */
     @Bean
     public OptimisticLockerInterceptor optimisticLockerInterceptor() {
+
         return new OptimisticLockerInterceptor();
     }
 
@@ -33,6 +34,7 @@ public class MybatisPlusConfig {
      */
     @Bean
     public PaginationInterceptor paginationInterceptor() {
+
         return new PaginationInterceptor();
     }
 
@@ -42,6 +44,7 @@ public class MybatisPlusConfig {
      */
     @Bean
     public ISqlInjector sqlInjector() {
+
         return new LogicSqlInjector();
     }
 

@@ -15,8 +15,8 @@
         <module>service-edu</module>
         <module>service-oss</module>
         <module>service-vod</module>
-
-
+        <module>service-statistics</module>
+        <module>service-ucenter</module>
 
     </modules>
 

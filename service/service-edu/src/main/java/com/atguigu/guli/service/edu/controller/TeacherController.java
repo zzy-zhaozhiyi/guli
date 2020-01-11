@@ -41,6 +41,7 @@ public class TeacherController {
         IPage<Teacher> pageModel = teacherService.selectPage(pageParam, teacherQueryVo);
         List<Teacher> records = pageModel.getRecords();
         long total = pageModel.getTotal();
+
         return R.ok().data("rows", records).data("total", total);
     }
 

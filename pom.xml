@@ -6,9 +6,11 @@
 	<modules>
 		<module>common</module>
 		<module>service</module>
+        <module>infrastructure</module>
+		<module>infrastructure/eureka-server</module>
 
 
-    </modules>
+	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>

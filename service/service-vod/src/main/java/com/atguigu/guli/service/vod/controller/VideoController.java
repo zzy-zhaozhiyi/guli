@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.InputStream;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -61,10 +62,23 @@ public class VideoController {
         }
 
     }
+    @DeleteMapping("remove")
+    public R removeVideoByIdList(@RequestBody List<String> videoSourceIdList){
+        try {
+            this.videoService.revideoSourceIdList(videoSourceIdList);
+            return R.ok().message("删除成功");
+        } catch (ClientException e) {
+            log.error(ExceptionUtils.getMessage(e));
+            throw new GuliException(ResultCodeEnum.VIDEO_DELETE_ALIYUN_ERROR);
+        }
 
-    //下面两个方法是通过js浏览器直传的
+    }
+
+//下面两个方法是js前端直传的方法
     @GetMapping("get-video-upload-auth-and-address/{title}/{fileName}")
-    public R getVideoUploadAuthAndAddress(@PathVariable String title, @PathVariable String fileName){
+    public R getVideoUploadAuthAndAddress(
+            @PathVariable String title, @PathVariable String fileName){
+
         try {
             Map<String, Object> map = videoService.getVideoUploadAuthAndAddress(title, fileName);
             return R.ok().data(map).message("获取视频上传凭证和地址成功");
@@ -75,8 +89,11 @@ public class VideoController {
     }
 
 
+
     @GetMapping("refresh-video-upload-auth/{videoId}")
-    public R refreshVideoUploadAuth(@PathVariable String videoId){
+    public R refreshVideoUploadAuth(
+            @PathVariable String videoId){
+
         try {
             Map<String, Object> map = videoService.refreshVideoUploadAuth(videoId);
             return R.ok().data(map).message("刷新视频上传凭证成功");

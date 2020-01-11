@@ -29,5 +29,17 @@ spring:
 
 mybatis-plus:
   configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #mybatis日志
+  mapper-locations: classpath:com/atguigu/guli/service/edu/mapper/xml/*.xml
+aliyun:
+  vod:
+    file:
+      keyid: LTAI4FjoE4WHevyWVKYZ8MHK
+      keysecret: v8T0Upqf0FgqAzSYdhsmdgXO4clKkO
+#连接的注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9110/eureka/ #指定注册中心地址
+  instance:
+    prefer-ip-address: true

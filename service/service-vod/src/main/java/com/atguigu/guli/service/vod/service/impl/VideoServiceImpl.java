@@ -18,10 +18,11 @@ import org.springframework.util.StringUtils;
 
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
- * @author helen
+ * @author zzy
  * @since 2020/1/7
  */
 @Service
@@ -47,9 +48,9 @@ public class VideoServiceImpl implements VideoService {
         UploadStreamResponse response = uploader.uploadStream(request);
 
         String videoId = response.getVideoId();
-        if(StringUtils.isEmpty(videoId)){
+        if (StringUtils.isEmpty(videoId)) {
             log.error("阿里云视频上传失败：" + response.getCode() + "-" + response.getMessage());
-            throw  new GuliException(ResultCodeEnum.VIDEO_UPLOAD_ALIYUN_ERROR);
+            throw new GuliException(ResultCodeEnum.VIDEO_UPLOAD_ALIYUN_ERROR);
         }
 
         return videoId;
@@ -69,7 +70,8 @@ public class VideoServiceImpl implements VideoService {
         request.setVideoIds(videoId);
 
         //发送请求获取response对象
-        /*DeleteVideoResponse response = */client.getAcsResponse(request);
+        /*DeleteVideoResponse response = */
+        client.getAcsResponse(request);
     }
 
     @Override
@@ -125,4 +127,53 @@ public class VideoServiceImpl implements VideoService {
 
         return map;
     }
+
+
+    @Override
+    public String getVideoPlayAuth(String videoSourceId) throws ClientException {
+        DefaultAcsClient client = AliyunVodSDKUtils.initVodClient(vodProperties.getKeyid(), vodProperties.getKeysecret());
+
+        //创建请求对象
+        GetVideoPlayAuthRequest request = new GetVideoPlayAuthRequest();
+        request.setVideoId(videoSourceId);
+
+        //获取响应
+        GetVideoPlayAuthResponse response = client.getAcsResponse(request);
+
+        return response.getPlayAuth();
+
+    }
+
+    @Override
+    public void revideoSourceIdList(List<String> videoSourceIdList) throws ClientException {
+        //初始化client对象
+        DefaultAcsClient client = AliyunVodSDKUtils.initVodClient(
+                vodProperties.getKeyid(),
+                vodProperties.getKeysecret());
+
+        DeleteVideoRequest request = new DeleteVideoRequest();
+
+        int size = videoSourceIdList.size();
+
+        StringBuffer idListStr = new StringBuffer();
+
+        for (int i = 0; i < size; i++) {
+
+            idListStr.append(videoSourceIdList.get(i));
+
+            if (i == size - 1 || i % 20 == 19) {
+                //支持传入多个视频ID，多个用逗号分隔，最多20个
+                request.setVideoIds(idListStr.toString());
+
+                DeleteVideoResponse acsResponse = client.getAcsResponse(request);
+
+                idListStr = new StringBuffer();
+
+            } else if (i % 20 < 19) {
+                idListStr.append(",");
+            }
+        }
+    }
+
+
 }

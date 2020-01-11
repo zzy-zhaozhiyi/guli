@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * @author helen
+ * @author zzy
  * @since 2020/1/7
  */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)//取消数据源自动配置
