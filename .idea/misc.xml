@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/infrastructure/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/service/service-statistics/pom.xml" />
         <option value="$PROJECT_DIR$/service/service-ucenter/pom.xml" />
+        <option value="$PROJECT_DIR$/service/service-sms/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -44,6 +45,7 @@
         <option value="$PROJECT_DIR$/service-statistics/pom.xml" />
         <option value="$PROJECT_DIR$/service-ucenter/pom.xml" />
         <option value="$PROJECT_DIR$/service-vod/pom.xml" />
+        <option value="$PROJECT_DIR$/service/sms/pom.xml" />
         <option value="$PROJECT_DIR$/service/vming/pom.xml" />
       </set>
     </option>

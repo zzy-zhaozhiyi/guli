@@ -1,6 +1,9 @@
 package com.atguigu.guli.service.ucenter.service;
 
 import com.atguigu.guli.service.ucenter.entity.Member;
+import com.atguigu.guli.service.ucenter.vo.LoginInfoVo;
+import com.atguigu.guli.service.ucenter.vo.LoginVo;
+import com.atguigu.guli.service.ucenter.vo.RegisterVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -14,4 +17,10 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface MemberService extends IService<Member> {
 
     Integer countRegisterByDay(String day);
+
+    void register(RegisterVo registerVo);
+
+    String login(LoginVo loginVo);
+
+    LoginInfoVo getLoginInfo(String token);
 }

@@ -14,6 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class ServiceOssApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(ServiceOssApplication.class, args);
     }
 }
