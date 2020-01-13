@@ -121,4 +121,11 @@ public class MemberServiceImpl extends ServiceImpl<MemberMapper, Member> impleme
 
         return vo;
     }
+
+    @Override
+    public Member getByOpenid(String openid) {
+        QueryWrapper<Member> queryWrapper = new QueryWrapper<Member>().eq("openid", openid);
+        Member member = this.baseMapper.selectOne(queryWrapper);
+        return member;
+    }
 }

@@ -23,4 +23,6 @@ public interface MemberService extends IService<Member> {
     String login(LoginVo loginVo);
 
     LoginInfoVo getLoginInfo(String token);
+
+    Member getByOpenid(String openid);
 }

@@ -1,9 +1,7 @@
 package com.atguigu.guli.common.base.util;
 
-import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.Jws;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.*;
+import org.springframework.util.StringUtils;
 
 import java.util.Date;
 
@@ -23,9 +21,10 @@ public class JwtUtils {
 
     /**
      * 生成Jwt令牌
+     *
      * @return
      */
-    public static String generateJWT(String id, String nickname, String avatar){
+    public static String generateJWT(String id, String nickname, String avatar) {
 
         String token = Jwts.builder()
                 .setHeaderParam("typ", "JWT") //令牌类型
@@ -44,14 +43,31 @@ public class JwtUtils {
 
     /**
      * 校验jwt
+     *
      * @param jwtToken
      * @return
      */
-    public static Claims checkJWT(String jwtToken){
+    public static Claims checkJWT(String jwtToken) {
 
         Jws<Claims> claimsJws = Jwts.parser().setSigningKey(APP_SECRET).parseClaimsJws(jwtToken);
         Claims claims = claimsJws.getBody();
 
         return claims;
+    }
+
+    public static Boolean checkToken(String s) {
+        if (StringUtils.isEmpty(s)) {
+            return false;
+        }
+        //解析错误的话，么有内容的话，解析错误也返回false
+        try {
+            Jwts.parser().setSigningKey(APP_SECRET).parseClaimsJws(s);
+        } catch (ExpiredJwtException e) {
+
+            return false;
+        }
+
+        return true;
+
     }
 }

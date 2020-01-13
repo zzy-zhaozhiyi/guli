@@ -1,12 +1,11 @@
 package com.atguigu.guli.service.ucenter.controller.api;
 
 import com.atguigu.guli.common.base.result.R;
-import com.atguigu.guli.common.base.util.JwtUtils;
+import com.atguigu.guli.common.base.util.GuliAppUtils;
 import com.atguigu.guli.service.ucenter.service.MemberService;
 import com.atguigu.guli.service.ucenter.vo.LoginInfoVo;
 import com.atguigu.guli.service.ucenter.vo.LoginVo;
 import com.atguigu.guli.service.ucenter.vo.RegisterVo;
-import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -30,6 +29,9 @@ public class ApiMemberController {
     @PostMapping("register")
     public R register(@RequestBody RegisterVo registerVo){
         this.memberService.register(registerVo);
+        //注册成功删除缓存
+        this.redisTemplate.delete(GuliAppUtils.PHONE_NUMBER+registerVo.getMobile());
+
         return R.ok().message("註冊成功");
 
     }

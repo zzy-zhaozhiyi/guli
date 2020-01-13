@@ -15,6 +15,8 @@ import com.baomidou.mybatisplus.generator.config.po.TableFill;
 import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 
 import java.util.ArrayList;
 
@@ -103,6 +105,16 @@ public class CodeGenerator {
         mpg.execute();
 
     }
+    @Autowired
+    private StringRedisTemplate redisTemplate;
+    @Test
+    public void test2() {
+        this.redisTemplate.opsForValue().set("ping","ping");
+        String ping = this.redisTemplate.opsForValue().get("ping");
+        System.out.println(ping);
+
+    }
+
 }
 
 

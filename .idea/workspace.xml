@@ -2,37 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7d3ec0-2489-4c8a-90e2-74cdb1508f5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/GuliAppUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-base/src/main/java/com/atguigu/guli/service/base/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sms/src/main/java/com/atguigu/guli/service/sms/ServiceSmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sms/src/main/java/com/atguigu/guli/service/sms/controller/api/ApiSmsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sms/src/main/java/com/atguigu/guli/service/sms/service/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sms/src/main/java/com/atguigu/guli/service/sms/service/impl/SmsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sms/src/main/java/com/atguigu/guli/service/sms/util/SmsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sms/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sms/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/controller/api/ApiMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/vo/LoginInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/vo/LoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/vo/RegisterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/src/main/java/com/atguigu/guli/service/gateway/ServiceGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/src/main/java/com/atguigu/guli/service/gateway/config/CrosConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/src/main/java/com/atguigu/guli/service/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/src/main/java/com/atguigu/guli/service/gateway/handler/ErrorHandlerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/src/main/java/com/atguigu/guli/service/gateway/handler/JsonExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/target/classes/com/atguigu/guli/service/gateway/ServiceGatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/target/classes/com/atguigu/guli/service/gateway/config/CrosConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/target/classes/com/atguigu/guli/service/gateway/filter/AuthGlobalFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/target/classes/com/atguigu/guli/service/gateway/handler/ErrorHandlerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/target/classes/com/atguigu/guli/service/gateway/handler/JsonExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/controller/api/ApiWxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/util/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/util/UcenterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/controller/api/ApiWxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/util/HttpClientUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/util/HttpClientUtils$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/util/HttpClientUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/util/UcenterProperties.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/result/ResultCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/result/ResultCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/result/ResultCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/guli/common/base/result/ResultCodeEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atguigu/guli/service/oss/ServiceOssApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/atguigu/guli/service/oss/ServiceOssApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-oss/target/classes/com/atguigu/guli/service/oss/ServiceOssApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-oss/target/classes/com/atguigu/guli/service/oss/ServiceOssApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sms/target/classes/com/atguigu/guli/service/sms/controller/api/ApiSmsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sms/target/classes/com/atguigu/guli/service/sms/controller/api/ApiSmsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/controller/api/ApiMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/controller/api/ApiMemberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/atguigu/guli/service/ucenter/service/impl/MemberServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-ucenter/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-ucenter/src/test/java/com/atguigu/guli/service/ucenter/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-ucenter/src/test/java/com/atguigu/guli/service/ucenter/CodeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-ucenter/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-ucenter/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/controller/api/ApiMemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/controller/api/ApiMemberController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/service/MemberService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/service/impl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-ucenter/target/classes/com/atguigu/guli/service/ucenter/service/impl/MemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-ucenter/target/test-classes/com/atguigu/guli/service/ucenter/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-ucenter/target/test-classes/com/atguigu/guli/service/ucenter/CodeGenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +111,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/guli/common/base/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/infrastructure/api-gateway/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,11 +127,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace_idea0722\guli\service" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.atguigu.guli.service.statistics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_idea0722\guli\service\service-ucenter\src\main\java\com\atguigu\guli\service\ucenter\util" />
+      <recent name="D:\workspace_idea0722\guli\common\common-util\src\main\java\com\atguigu\guli\common\base\util" />
+      <recent name="D:\workspace_idea0722\guli\service\service-sms\src\main\java\com\atguigu\guli\service\sms" />
+      <recent name="D:\workspace_idea0722\guli\service\service-sms\src\main\resources" />
+      <recent name="D:\workspace_idea0722\guli\service\service-ucenter\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.guli.service.ucenter" />
@@ -131,12 +143,8 @@
       <recent name="com.atguigu.guli.service.edu.util" />
       <recent name="com.atguigu.guli.service.vod" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace_idea0722\guli\common\common-util\src\main\java\com\atguigu\guli\common\base\util" />
-      <recent name="D:\workspace_idea0722\guli\service\service-sms\src\main\java\com\atguigu\guli\service\sms" />
-      <recent name="D:\workspace_idea0722\guli\service\service-sms\src\main\resources" />
-      <recent name="D:\workspace_idea0722\guli\service\service-ucenter\src\main\java\com\atguigu\guli\service\ucenter\util" />
-      <recent name="D:\workspace_idea0722\guli\service\service-ucenter\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace_idea0722\guli\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,7 +154,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceOssApplication">
+  <component name="RunManager" selected="JUnit.CodeGenerator.test2">
     <configuration name="CodeGenerator.genCode (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-statistics" />
       <extension name="coverage">
@@ -163,7 +171,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeGenerator.genCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CodeGenerator.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-ucenter" />
       <extension name="coverage">
         <pattern>
@@ -173,7 +181,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.guli.service.ucenter" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.guli.service.ucenter.CodeGenerator" />
-      <option name="METHOD_NAME" value="genCode" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,6 +260,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.guli.service.gateway.ServiceGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceOssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-oss" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.guli.service.oss.ServiceOssApplication" />
@@ -294,7 +309,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CodeGenerator.genCode" />
       <item itemvalue="JUnit.CodeGenerator.genCode (1)" />
       <item itemvalue="Spring Boot.ServiceOssApplication" />
       <item itemvalue="Spring Boot.ServiceStatisticsApplication" />
@@ -303,12 +317,15 @@
       <item itemvalue="Spring Boot.ServiceEduApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServiceUcenterApplication" />
+      <item itemvalue="JUnit.CodeGenerator.test2" />
+      <item itemvalue="Spring Boot.ServiceGatewayApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CodeGenerator.test2" />
         <item itemvalue="Spring Boot.ServiceUcenterApplication" />
-        <item itemvalue="Spring Boot.ServiceEduApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.ServiceEduApplication" />
         <item itemvalue="JUnit.CodeGenerator.genCode (1)" />
       </list>
     </recent_temporary>
@@ -317,7 +334,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.20721476" />
+          <option name="contentProportion" value="0.32550335" />
           <treeState>
             <expand>
               <path>
@@ -327,12 +344,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -340,6 +352,9 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -427,7 +442,9 @@
       <workItem from="1578712288652" duration="534000" />
       <workItem from="1578712839436" duration="12580000" />
       <workItem from="1578789973922" duration="4250000" />
-      <workItem from="1578808602484" duration="10009000" />
+      <workItem from="1578808602484" duration="11675000" />
+      <workItem from="1578838957637" duration="1301000" />
+      <workItem from="1578875243116" duration="14747000" />
     </task>
     <task id="LOCAL-00001" summary="在线教育首次提交">
       <created>1578147233553</created>
@@ -471,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578751413134</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="搭建sms和完成门户网站后端注册、登录、解析token">
+      <created>1578823641945</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578823641945</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +522,8 @@
     <MESSAGE value="首次" />
     <MESSAGE value="添加上传模块" />
     <MESSAGE value="完成统计查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成统计查询" />
+    <MESSAGE value="搭建sms和完成门户网站后端注册、登录、解析token" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建sms和完成门户网站后端注册、登录、解析token" />
   </component>
   <component name="WindowStateProjectService">
     <state x="202" y="0" key="#Inspections" timestamp="1578577814912">
@@ -529,10 +554,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="360" y="183" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.680@0.0.1280.680" timestamp="1578136853521" />
-    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1578822890753">
+    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1578904147306">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578822890753" />
+    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578904147306" />
     <state x="309" y="69" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1578563743185">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -561,50 +586,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="394" y="212" width="629" height="257" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1578563747035" />
-    <state x="192" y="0" key="CommitChangelistDialog2" timestamp="1578751411600">
+    <state x="192" y="0" key="CommitChangelistDialog2" timestamp="1578823640379">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="192" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578751411600" />
-    <state x="470" y="0" key="FileChooserDialogImpl" timestamp="1578799732723">
+    <state x="192" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578823640379" />
+    <state x="470" y="0" key="FileChooserDialogImpl" timestamp="1578911049237">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="470" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578799732723" />
+    <state x="470" y="0" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578911049237" />
     <state x="452" y="236" width="406" height="208" key="Github.CreateGistDialog" timestamp="1578141073354">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="452" y="236" width="406" height="208" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1578141073354" />
-    <state width="944" height="304" key="GridCell.Tab.0.bottom" timestamp="1578823510812">
+    <state width="1229" height="418" key="GridCell.Tab.0.bottom" timestamp="1578884983227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="944" height="304" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578823510812" />
-    <state width="944" height="304" key="GridCell.Tab.0.center" timestamp="1578823510812">
+    <state width="1229" height="418" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578884983227" />
+    <state width="1229" height="418" key="GridCell.Tab.0.center" timestamp="1578884983227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="944" height="304" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578823510812" />
-    <state width="944" height="304" key="GridCell.Tab.0.left" timestamp="1578823510812">
+    <state width="1229" height="418" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578884983227" />
+    <state width="1229" height="418" key="GridCell.Tab.0.left" timestamp="1578884983226">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="944" height="304" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578823510812" />
-    <state width="944" height="304" key="GridCell.Tab.0.right" timestamp="1578823510812">
+    <state width="1229" height="418" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578884983226" />
+    <state width="1229" height="418" key="GridCell.Tab.0.right" timestamp="1578884983227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="944" height="304" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578823510812" />
-    <state width="944" height="304" key="GridCell.Tab.1.bottom" timestamp="1578823510813">
+    <state width="1229" height="418" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578884983227" />
+    <state width="803" height="304" key="GridCell.Tab.1.bottom" timestamp="1578841246440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="944" height="304" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578823510813" />
-    <state width="944" height="304" key="GridCell.Tab.1.center" timestamp="1578823510812">
+    <state width="803" height="304" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578841246440" />
+    <state width="803" height="304" key="GridCell.Tab.1.center" timestamp="1578841246440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="944" height="304" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578823510812" />
-    <state width="944" height="304" key="GridCell.Tab.1.left" timestamp="1578823510812">
+    <state width="803" height="304" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578841246440" />
+    <state width="803" height="304" key="GridCell.Tab.1.left" timestamp="1578841246440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="944" height="304" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578823510812" />
-    <state width="944" height="304" key="GridCell.Tab.1.right" timestamp="1578823510812">
+    <state width="803" height="304" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578841246440" />
+    <state width="803" height="304" key="GridCell.Tab.1.right" timestamp="1578841246440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="944" height="304" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578823510812" />
+    <state width="803" height="304" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578841246440" />
     <state width="817" height="248" key="GridCell.Tab.2.bottom" timestamp="1578711591850">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -633,10 +658,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="59" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578732985299" />
-    <state x="133" y="9" key="Vcs.Push.Dialog.v2" timestamp="1578751426106">
+    <state x="133" y="9" key="Vcs.Push.Dialog.v2" timestamp="1578823648106">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="133" y="9" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578751426106" />
+    <state x="133" y="9" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578823648106" />
     <state x="329" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1578125158030">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
