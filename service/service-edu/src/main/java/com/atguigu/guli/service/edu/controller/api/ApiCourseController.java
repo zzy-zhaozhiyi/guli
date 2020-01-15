@@ -1,6 +1,7 @@
 package com.atguigu.guli.service.edu.controller.api;
 
 import com.atguigu.guli.common.base.result.R;
+import com.atguigu.guli.service.base.dto.CourseDto;
 import com.atguigu.guli.service.edu.entity.Course;
 import com.atguigu.guli.service.edu.entity.vo.ChapterVo;
 import com.atguigu.guli.service.edu.entity.vo.WebCourseQueryVo;
@@ -50,5 +51,10 @@ public class ApiCourseController {
         List<ChapterVo> chapterVoList = chapterService.nestedList(courseId);
 
         return R.ok().data("course", webCourseVo).data("chapterVoList", chapterVoList);
+    }
+    @GetMapping(value = "inner/get-course-dto/{id}")
+    public CourseDto getCourseDtoById(@PathVariable String id){
+        CourseDto courseDto = courseService.getCourseDtoById(id);
+        return courseDto;
     }
 }

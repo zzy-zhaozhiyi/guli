@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/service/service-ucenter/pom.xml" />
         <option value="$PROJECT_DIR$/service/service-sms/pom.xml" />
         <option value="$PROJECT_DIR$/infrastructure/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/service/service-order/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

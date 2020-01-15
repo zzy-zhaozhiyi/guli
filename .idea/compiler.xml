@@ -57,6 +57,7 @@
       <module name="infrastructure" options="-parameters" />
       <module name="service-base" options="-parameters" />
       <module name="service-edu" options="-parameters" />
+      <module name="service-order" options="-parameters" />
       <module name="service-oss" options="-parameters" />
       <module name="service-sms" options="-parameters" />
       <module name="service-statistics" options="-parameters" />

@@ -70,4 +70,11 @@ public class JwtUtils {
         return true;
 
     }
+
+    public static String getMemberIdByJwtToken(String jwtToken) {
+        Jws<Claims> claimsJws = Jwts.parser().setSigningKey(APP_SECRET).parseClaimsJws(jwtToken);
+        Claims body = claimsJws.getBody();
+        return ((String) body.get("id"));
+
+    }
 }

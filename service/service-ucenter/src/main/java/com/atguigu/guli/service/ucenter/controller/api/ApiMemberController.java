@@ -2,6 +2,7 @@ package com.atguigu.guli.service.ucenter.controller.api;
 
 import com.atguigu.guli.common.base.result.R;
 import com.atguigu.guli.common.base.util.GuliAppUtils;
+import com.atguigu.guli.service.base.dto.MemberDto;
 import com.atguigu.guli.service.ucenter.service.MemberService;
 import com.atguigu.guli.service.ucenter.vo.LoginInfoVo;
 import com.atguigu.guli.service.ucenter.vo.LoginVo;
@@ -46,7 +47,11 @@ public class ApiMemberController {
         String token = request.getHeader("token");
         LoginInfoVo loginInfoVo= this.memberService.getLoginInfo(token);
         return R.ok().data("item",loginInfoVo);
-
-
+    }
+    //只是内部微服务间的调用，就不用R了，直接用对象就可以了
+    @GetMapping(value = "inner/get-member-dto/{memberId}")
+    public MemberDto getMemberDtoByMemberId(@PathVariable("memberId") String memberId){
+        MemberDto memberDto = memberService.getMemberDtoByMemberId(memberId);
+        return memberDto;
     }
 }

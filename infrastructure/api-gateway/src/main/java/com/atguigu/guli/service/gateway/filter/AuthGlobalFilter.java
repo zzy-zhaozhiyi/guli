@@ -17,7 +17,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 /**
- * @author helen
+ * @author zzy
  * @since 2020/1/13
  */
 @Component
@@ -43,7 +43,11 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
                 }
             }
         }
-
+        //内部服务调用接口，不允许前端外部访问
+        if(antPathMatcher.match("/**/inner/**", path)){
+            ServerHttpResponse response = exchange.getResponse();
+            return out(response);
+        }
         return chain.filter(exchange);
     }
 
